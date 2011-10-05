@@ -1,0 +1,123 @@
+@charset utf-8;
+
+/* Used smacss as styling schema. http://smacss.com/book/ 
+ */
+
+/* ------------------------------------------------------------------------------------
+ * BASE (mostly in normalize.css defined)
+ * ------------------------------------------------------------------------------------*/
+
+
+/* ------------------------------------------------------------------------------------
+ * LAYOUT (mostly in lessframework.css defined)
+ * ------------------------------------------------------------------------------------*/
+
+#container {
+}
+#header {
+}
+#footer {
+}
+#article {
+}
+#sidebar {
+}
+
+
+/* ------------------------------------------------------------------------------------
+ * MODULES
+ * ------------------------------------------------------------------------------------*/
+/* ---------- Navigation Module  
+ * -----------------------------------*/
+nav {
+}
+nav.footer {
+}
+
+/* ---------- Post Article Module  
+ * -----------------------------------*/
+.post {
+}
+  .post-title {
+  }
+  .post-content {
+  }
+  .post-meta {
+  }
+
+/* ---------- Comments Module  
+ * -----------------------------------*/
+.comments {
+}
+  .comments-count {
+  }
+  .comments-list {
+  }
+  .comments-nav {
+  }
+  .comments-pinglist {
+  }
+  .nocomments {
+  }
+  .comments-respond {
+  }
+  .comments-respond-title {
+  }
+  .comments-cancel-reply {
+  }
+  #comments-form {
+  }
+
+
+/* ------------------------------------------------------------------------------------
+ * STATES 
+ * ------------------------------------------------------------------------------------*/
+
+
+
+
+
+/* ------------------------------------------------------------------------------------
+ * Theme styles 
+ * ------------------------------------------------------------------------------------*/
+/* ---------- Global styles
+ * -----------------------------------*/
+.aligncenter { 
+  display: block; 
+  margin: 0 auto 
+}
+.alignright { 
+  float: right; 
+  margin: 0 0 1em 1em 
+}
+.alignleft { 
+  float: left; 
+  margin: 0 1em 1em 0 
+}
+img.aligncenter, img.alignright, img.alignleft { border: 5px solid #DDD }
+
+.wp-caption { 
+  padding-top: 4px; 
+  margin: 10px 
+  border: 1px solid #DDD; 
+  background: #F3F3F3; 
+  text-align: center; 
+}
+.wp-caption img { 
+  margin: 0; 
+  padding: 0; 
+  border: none 
+}
+.wp-caption .wp-caption-text { 
+  font-size: 11px; 
+  line-height: 17px; 
+  padding: 0 4px 5px; 
+  margin: 0 
+}
+.gallery-caption {
+}
+.sticky {
+}
+.bypostauthor {
+}
+
